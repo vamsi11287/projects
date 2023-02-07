@@ -13,6 +13,7 @@ const Nav = () => {
             <h1 className='
             nav_title'>Amigo <span className='nav_next'>Shopping</span></h1>
             <div className='nav_menu'>
+                {/* hello */}
                 <Link to='/'>Home</Link >
                 <Link to='/Products'>Products</Link >
                 <Link to='/Cart'>Cart</Link >
