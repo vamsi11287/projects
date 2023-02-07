@@ -1,0 +1,60 @@
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height: 100%;
+    gap:10px;
+    padding:3% 1%;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:5px;
+    gap:10px;
+    width:24%;
+    height:45vh;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 15px;
+}
+.cards img{
+    width:65%;
+    height:50%;
+}
+.card_price-rate{
+    display:flex;
+    gap:15px;
+}
+.card_buttons{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    gap: 10px;
+}
+.buy{
+    background-color: rgb(199, 21, 21);
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius:5px;
+    border: none;
+}
+.add{
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    border-radius:5px;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* buy */
+
+.buybutton{
+    width:100%;
+}
